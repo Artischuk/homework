@@ -1,4 +1,4 @@
-body  {
+html,body  {
 	font-family: "Times New Roman", Times, serif;
 	margin:0px;
 	padding:0px;
@@ -12,10 +12,17 @@ body  {
 	margin:0 auto;
 	/*width:1440px;
 	height:800px;*/
-	border-bottom:2px solid #000;
+	border-bottom:4px solid #000;
+    padding-top: 4px;
+    padding-bottom: 47px;
 }
 .content{
-	padding:50px;
+	padding-left:50px;
+    padding-right:50px;
+    padding-top: 25px;
+	width:510px;
+	height:750px;
+	background-color:#fff;
 	width:510px;
 	height:750px;
 	background-color:#fff;
@@ -31,4 +38,4 @@ p{
 .center{
 	text-align:center;
 }
-a { display:inline-block; line-height: 50px; height: 70px;  font-size: 18px; }
+a { display:inline-block; line-height: 20px; height: 35px;  font-size: 18px; }
